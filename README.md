@@ -65,7 +65,7 @@
 
 
 ### - ☞ _**MongoDB Atlas (Cloud):**_
-  - Navigated to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and registered for the free tier using my **`Stony Brook email`**.
+  - To accomplish this task, I navigated to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and registered for the free tier using my **`Stony Brook email`**.
   - Created a new database instance named **`module8-nosql-hw`** and with basic configuration settings. I performed this step on the website and using the MongoDB Compass application, which I downloaded to my laptop.
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/1.png" width="550" />.
@@ -84,13 +84,21 @@
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/6%20-%20importing%20csv%20file.png" width="550" />.
 
-    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/7%20-%20json%20(data%20-%20all-%20showing%20only%20the%20first%202).png" width="550" />.
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/7%20-%20json%20(data%20-%20all-%20showing%20only%20the%20first%202).png" width="650" />.
 
-    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/8%20-%20json%20(query-hosp%26age)%201.png" width="550" />.
+  - I modified and explored the data. I ran a simple query to retrieve patient data.
+      ```json
+      {
+        Hospital: "Stony Brook Hospital",
+        Age: { $gt: 30 }
+      }
+      ```
 
-    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/9%20-%20json%20(query-hosp%26age)%202.png" width="550" />.
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/8%20-%20json%20(query-hosp%26age)%201.png" width="650" />.
 
-    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/10%20-%20json%20(query-hosp%26age)%203.png" width="550" />.
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/9%20-%20json%20(query-hosp%26age)%202.png" width="650" />.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/MongoDB/10%20-%20json%20(query-hosp%26age)%203.png" width="650" />.
 
   - Using the MongoDB Compass application, which I downloaded to my laptop, I realized that the CSV file could be converted into a JSON format. I just needed to hover to the right-hand side of the screen and click the curly bracket. Each row containing patient data was converted to a JSON format, which looked like this for each patient:
   
@@ -115,8 +123,11 @@
       }
     ```
 
+
+### - ☞ _***Redis Cloud:**_
+  - To accomplish this task, I navigated to [Redis Cloud](https://redis.io/cloud/) and signed up for a free tier account using my **`Stony Brook email`**.
+  - Created a new Redis database instance named **`raqs-nosql-hw`**.
     
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/1.png" width="400" />.
 
-
-
-
+    
