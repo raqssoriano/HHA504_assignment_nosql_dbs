@@ -182,6 +182,75 @@
 
 
 ---
+---
+
+# ☞ _**My Experience and Reflections Working with GCP's BigQuery, MongoDB, and Redis**_
+
+<table>
+<thead>
+<tr>
+<th> </th>
+<th>BIGQUERY</th>
+<th>MONGODB</th>
+<th>REDIS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>📌 Setup Process and Configuration </td>
+<td>
+  (1) Setting up a Database: Creating a new database was straightforward through the Google Cloud Console. <br> <br>
+
+  (2) Dataset Upload: I find that uploading a new dataset was efficiently done fast within the Google Cloud Console. It gave me the option to upload a CSV file from my local machine or through Google Cloud Storage, which I very find convenient. Also, the uploaded data is imported into tables within the dataset, it gave me the option to review it before completing the process. <br>
+  
+  (3) BigQuery was able to auto-detect the schema, but it still gave me an option to modify it if needed. <br> 
+  
+  (4) BigQuery can handle large-scale data with auto-scaling. With my recent exposure to GCP, I found that BigQuery was able to manage this large amount of data effectively.<br> </td>
+  
+<td> (1) Creating a Cluster: Setting up a new cluster in MongoDB Atlas was intuitive, allowing me to choose both cloud providers (such as AWS, GCP, and Azure) and regions.<br> <br>
+  
+(2) Dataset Upload: I utilized MongoDB Compass, a GUI tool for MongoDB, to upload a CSV file into a 'cluster' to create a healthcare dataset (collection) named 'patienthealthdata.' <br>
+
+(3) Configuration: MongoDB allows setting database users/roles that ensures secured access to the uploaded healthcare dataset.<br> </td>
+
+<td> (1) Creating a Database Instance: Like BigQuery and MongoDB, it seems straightforward to create a database instance with its configuration settings. <br> <br>
+
+(2) Connecting to Redis' Database Instance: I utilized Redis Insight to connect my Redis database instance to manage the data that will be uploaded. <br>
+
+(3) Dataset Uploading or Insertion: I used a Python script in Visual Studio Code to insert the healthcare dataset into Redis, treating PatientID as the key.<br> </td>
+
+</tr>
+<tr>
+<td>📌 Reflections on User-Interface and Usability </td>
+<td> (1) GCP makes it easy for a beginner like me to write/run queries, explore the data, and manage tables. <br> <br>
+
+(2) With the help of my weekly assignments with Oracle, I have recent exposure to SQL. This made it easier for me to start and run queries within the healthcare dataset. <br>
+
+(3) BigQuery's speed in making analytical queries on large dataset is quite impressive. This observation is based on my experience with a previous assignment.<br> </td>
+
+<td> (1) I find both the MongoDB Atlas web interface and MongoDB Compass visually appealing, particularly Compass. Similar to BigQuery, MongoDB Atlas (and Compass) provides the ability to manage newly created databases, collections (tables), and user access. Initially, I was confused, but after exploring the interface, I realized it was just unfamiliar to me. I prefer using Compass, which I downloaded on my laptop. <br> <br>
+
+  (2) I need to get used to MongoDB's query language. Having been exposed to SQL queries, which I find easier compared to MongoDB, I got confused even after following my professor's video recording. However, I used the simplest query. I know with time and practice my querying skills will likely improve, which will be part of my learning journey.<br>
+
+</td>
+
+<td> (1) Similar to MongoDB Atlas and Compass, I find the Redis web interface and Redis Insight (downloaded on my laptop) visually appealing. However, I was confused while I was attempting to perform the Redis task. At some point while navigating, I almost gave up because I couldn't find what I was looking for, especially when I wanted to run simple queries to complete this assignment. Then, I realized that, like MongoDB, I am not quite familiar with Redis yet. I need more exposure and practice to get used to it. Also, I find that Redis is more complex, requiring more understanding and effort to get accustomed to the data and commands/languages to make this platform work for the datasets I will choose to import in the future compared to the other two platforms. This is probably just me. <br> <br>
+
+(2) I noticed that in Redis, the default data type for keys is "string." For instance, after I uploaded the healthcare dataset and explored the data, "PatientID" were stored as a string by default for each patient information. This is my first time using Redis, and perhaps it is designed this way to make it more simplified in managing databases. For a beginner like me, it can be confusing, but as I mentioned previously in MongoDB, with time and practice my skills will likely improve. <br>
+
+</td>
+</tr>
+
+</tr>
+</tbody>
+</table>
+
+---
+---
+
+# ☞ _**My Final Thoughts:**_ 👩🏻‍💻
+#### 📌 Having now gained experience working with BigQuery, MongoDB, and Redis, I recognize that each platform offers distinct advantages. However, I find myself leaning towards GCP's BigQuery. Its user-friendly or straightforward interface and impressive performance capabilities, makes it a standout choice for me. My experience in this current assignment and my previous assignments has strengthened my opinion that GCP is a powerful and efficient tool for handling and analyzing large datasets, making it ideal for beginners like myself. This is not to say that Azure, MongoDB, and Redis are not good options. I just find GCP pretty straightforward and a little less complicated.
+
 
 
 
