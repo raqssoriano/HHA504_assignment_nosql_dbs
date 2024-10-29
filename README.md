@@ -154,7 +154,7 @@
     ```
 
 
-# ☞ _***Redis Cloud:**_
+# ☞ _**Redis Cloud:**_
 
   - To accomplish this task, I navigated to [Redis Cloud](https://redis.io/cloud/) and signed up for a free tier account using my **`Stony Brook email`**.
 
@@ -171,10 +171,14 @@
     <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/5%20-%20VSC%20%5Bto%20REDIS%5D.png" width="700" />.
 
   - I explored the patient data in **`Redis Insight`** after inserting data into Redis using Python in Visual Studio Code. I installed Redis Insight on my laptop after I created a Redis database instance.
-    
-    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/6%20-%20redis%20%5Bdb%201%5D.png" width="650" />.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/6%20-%20redis%20%5Bdb1%5D.png" width="650" />.
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/7%20-%20redis%20%5Bdb%202%5D.png" width="650" />.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/9%20-%20no%20edit.png" width="600" />.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_nosql_dbs/blob/main/different%20DB%20platforms/Redis/10.png" width="600" />.
 
 
 ---
