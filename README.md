@@ -1,8 +1,11 @@
+---
 # **HHA504 || Working with Managed No-SQL Databases**
 ---
 
-#### **🎯** This task is part of my assignment focused on creating and configuring databases in different platforms, such as Google Cloud Platform's BigQuery, MongoDB Atlas, and Redis Cloud.
+#### **🎯** This task is part of my assignment focused on creating and configuring databases in different platforms, such as Google Cloud Platform's [BigQuery](https://github.com/raqssoriano/HHA504_assignment_nosql_dbs#-google-bigquery-gcp), [MongoDB Atlas](https://github.com/raqssoriano/HHA504_assignment_nosql_dbs#-mongodb-atlas-cloud), and [Redis Cloud](https://github.com/raqssoriano/HHA504_assignment_nosql_dbs#-redis-cloud). Please click the `blue text` to get directly to each database platform.
 
+#### **📌** My [Experience and Reflections](https://github.com/raqssoriano/HHA504_assignment_nosql_dbs#-my-experience-and-reflections-working-with-gcps-bigquery-mongodb-and-redis) and [Final Thoughts](https://github.com/raqssoriano/HHA504_assignment_nosql_dbs#-my-final-thoughts-) on the database platforms are based on my experience as a graduate student completing this assignment.
+---
 ---
 
 # _*Steps Taken to Complete this Assignment*_
@@ -186,6 +189,8 @@
 
 # ☞ _**My Experience and Reflections Working with GCP's BigQuery, MongoDB, and Redis**_
 
+---
+
 <table>
 <thead>
 <tr>
@@ -249,6 +254,7 @@
 ---
 
 # ☞ _**My Final Thoughts:**_ 👩🏻‍💻
+
 #### 📌 Having now gained experience working with BigQuery, MongoDB, and Redis, I recognize that each platform offers distinct advantages. However, I find myself leaning towards GCP's BigQuery. Its user-friendly or straightforward interface and impressive performance capabilities, makes it a standout choice for me. My experience in this current assignment and my previous assignments has strengthened my opinion that GCP is a powerful and efficient tool for handling and analyzing large datasets, making it ideal for beginners like myself. This is not to say that Azure, MongoDB, and Redis are not good options. I just find GCP pretty straightforward and a little less complicated.
 
 
